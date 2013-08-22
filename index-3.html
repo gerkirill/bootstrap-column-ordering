@@ -1,0 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="bootstrap-3/css/bootstrap.css" rel="stylesheet">
+<div class="container">
+<style>
+.dot-bordered {
+	border:1px dotted #449944;
+	padding:2px;
+}
+</style>
+	<p>At narrow screens left column appears <b>under</b> main content.</p>
+
+	<div class="row">
+		<div class="col-md-10 col-md-push-2">
+			<div class="dot-bordered">Main content</div>
+		</div>
+		<div class="col-md-2 col-md-pull-10">
+			<div class="dot-bordered">Left col</div>
+		</div>
+	</div>
+	<p class="visible-sm text-info">&uarr; Yeah, that's what I mean.</p>
+</div>
